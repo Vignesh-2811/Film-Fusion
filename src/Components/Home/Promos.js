@@ -30,7 +30,7 @@ function Promos() {
           </div>
         </div>
         <img
-          src={require('/home/silver-surfer/Documents/filmfusion/src/images/mobile.png')}
+          src={require('../../images/mobile.png')}
           alt='Mobile App'
           className='w-full object-contain'
         />
