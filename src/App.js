@@ -11,6 +11,8 @@ import Login from './Screens/Login';
 import Register from './Screens/Register';
 import Profile from './Screens/Dashboard/Profile';
 import Aos from 'aos';
+import Password from './Screens/Dashboard/Password';
+import FavoritesMovies from './Screens/Dashboard/FavoritesMovies';
 
 function App() {
   Aos.init();
@@ -25,6 +27,9 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/register' element={<Register />} />
       <Route path='/profile' element={<Profile />} />
+      <Route path='/favorites' element={<FavoritesMovies />} />
+
+      <Route path='/password' element={<Password />} />
 
       <Route path='*' element={<NotFound />} />
     </Routes>
