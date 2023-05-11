@@ -2,7 +2,6 @@ import React from 'react';
 import Titles from '../Titles';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaUserFriends } from 'react-icons/fa';
-import { Autoplay } from 'swiper';
 import { UsersData } from '../../Data/UserData';
 
 function MovieCasts() {

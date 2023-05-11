@@ -2,7 +2,6 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper';
 import { Movies } from '../../Data/MovieData';
-import myImage from '../../images/5.jpg';
 import FlexMovieItems from '../FlexMovieItems';
 import { Link } from 'react-router-dom';
 import { FaHeart } from 'react-icons/fa';
@@ -35,7 +34,7 @@ function Banner() {
               </div>
               <div className='flex gap-5 items-center'>
                 <Link
-                  to={`/movie/{movie.name}`}
+                  to={`/watch/${movie?.name}`}
                   className='bg-subMain hover:text-main transitions text-white px-8 py-3 rounded font-medium sm:text-sm text-xs'
                 >
                   Watch

@@ -29,19 +29,19 @@ function Footer() {
       links: [
         {
           name: 'Action',
-          link: '#',
+          link: '/movies',
         },
         {
           name: 'Romantic',
-          link: '#',
+          link: '/movies',
         },
         {
           name: 'Drama',
-          link: '#',
+          link: '/movies',
         },
         {
           name: 'Historical',
-          link: '#',
+          link: '/movies',
         },
       ],
     },
@@ -54,7 +54,7 @@ function Footer() {
         },
         {
           name: 'My Favorites',
-          link: '/favorite',
+          link: '/favorites',
         },
         {
           name: 'Profile',
@@ -96,7 +96,7 @@ function Footer() {
 
           <div className='pb-3 5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3'>
             <Link to='/'>
-              <h3 className='w-2/4 object-contain h-12'>Forum Fusion</h3>
+              <h3 className='w-2/4 object-contain h-12'>Film Fusion</h3>
             </Link>
             <p className='leading-7 text-sm text-border mt-3'>
               <span>

@@ -1,11 +1,10 @@
 import React from 'react';
 import { BsFillGridFill } from 'react-icons/bs';
-import { FaHeart, FaListAlt, FaUsers } from 'react-icons/fa';
+import { FaHeart, FaListAlt } from 'react-icons/fa';
 import { FiSettings } from 'react-icons/fi';
-import { HiViewGridAdd } from 'react-icons/hi';
-import { RiMovie2Fill, RiLockPasswordLine } from 'react-icons/ri';
+import { RiLockPasswordLine } from 'react-icons/ri';
 import Layout from '../../Layout/Layout';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function SideBar({ children }) {
   const SideLinks = [
@@ -18,21 +17,6 @@ function SideBar({ children }) {
       name: 'Movie List',
       link: '/movielist',
       icon: FaListAlt,
-    },
-    {
-      name: 'Add Movie',
-      link: '/addmovie',
-      icon: RiMovie2Fill,
-    },
-    {
-      name: 'Categories',
-      link: '/categories',
-      icon: HiViewGridAdd,
-    },
-    {
-      name: 'Users',
-      link: '/users',
-      icon: FaUsers,
     },
     {
       name: 'Update Profile',

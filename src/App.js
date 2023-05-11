@@ -32,9 +32,7 @@ function App() {
       <Route path='/favorites' element={<FavoritesMovies />} />
       <Route path='/movielist' element={<MovieList />} />
       <Route path='/dashboard' element={<Dashboard />} />
-
       <Route path='/password' element={<Password />} />
-
       <Route path='*' element={<NotFound />} />
     </Routes>
   );
